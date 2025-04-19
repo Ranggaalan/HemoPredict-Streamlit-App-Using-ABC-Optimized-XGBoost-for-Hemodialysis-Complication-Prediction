@@ -29,36 +29,7 @@ def add_bg_from_url():
         """,
         unsafe_allow_html=True
     )
-
-# Menambahkan opsi untuk memilih mode (light atau dark) di sidebar
-mode = st.sidebar.radio("Pilih Mode", ("Light", "Dark"))
-
-# Pengaturan Tema sesuai dengan pilihan mode
-if mode == "Light":
-    st.set_page_config(page_title="Streamlit App", page_icon=":guardsman:", layout="wide")
-    st.write("Mode Terang")
-    st.markdown(
-        """
-        <style>
-        body {
-            background-color: #FFFFFF;
-            color: #000000;
-        }
-        </style>
-        """, unsafe_allow_html=True)
-else:
-    st.set_page_config(page_title="Streamlit App", page_icon=":guardsman:", layout="wide")
-    st.write("Mode Gelap")
-    st.markdown(
-        """
-        <style>
-        body {
-            background-color: #2C2C2C;
-            color: #FFFFFF;
-        }
-        </style>
-        """, unsafe_allow_html=True)
-
+    
 # Custom CSS for better styling
 def add_custom_styling():
     st.markdown("""
