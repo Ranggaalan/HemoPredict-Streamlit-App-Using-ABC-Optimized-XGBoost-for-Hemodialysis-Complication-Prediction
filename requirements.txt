@@ -1,6 +1,6 @@
+joblib = 1.4.2
 streamlit = 1.44.0
 pandas = 2.2.3
-joblib = 1.4.2
 mysql-connector-python = 9.2.0
 numpy = 1.23.5
 scikit-learn = 1.5.1
