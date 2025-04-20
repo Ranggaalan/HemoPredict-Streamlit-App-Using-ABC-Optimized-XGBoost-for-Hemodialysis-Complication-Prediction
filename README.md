@@ -27,7 +27,7 @@ Designed with both functionality and usability in mind, the app integrates a rea
 
 ## 🧪 Experiments and Evaluation
 
-A total of **66 models** were evaluated using five different testing strategies with both **unbalanced** and **balanced datasets**:
+A total of **72 models** were evaluated using five different testing strategies with both **unbalanced** and **balanced datasets**:
 
 - **Train-Test Splits**: 75:25 and 80:20
 - **K-Fold Cross-Validation**: K = 3, 5, 7, 10
