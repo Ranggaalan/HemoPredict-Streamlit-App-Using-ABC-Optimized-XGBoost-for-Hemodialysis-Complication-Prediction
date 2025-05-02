@@ -284,10 +284,10 @@ model = joblib.load('model_parameter5b.sav')
 # Koneksi ke Database MySQL Online (Freedb)
 def get_db_connection():
     return mysql.connector.connect(
-        host="sql12.freesqldatabase.com",
-        user="sql12774093",
-        password="qpZlf7IvDJ",
-        database="sql12774093"
+        host="kopicast.web.id",
+        user="kopicast_userrangga",
+        password="Venusku123",
+        database="kopicast_hemodialysis_db"
     )
 
 # Hash password
